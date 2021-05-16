@@ -1,0 +1,107 @@
+
+* { 
+    
+    
+    margin:0; 
+    padding: 0px;; 
+    box-sizing:border-box; 
+
+
+
+}
+
+
+.parent {
+    position: relative;
+    top: 10;
+    left: 0;
+    
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    /* padding: 30px; */
+  }
+  .image2 {
+    position: absolute;
+    
+    
+    
+    
+  }
+  
+
+body{
+    margin: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    
+   
+}
+
+.menu-bar{
+    
+    position: absolute;
+    top: 38px;
+    right: 90px;
+    width: 70%;
+    
+}
+
+.menu-bar-items{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.menu-bar-items a{
+    color:white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.middle-main{
+    position: absolute;
+    top: 138px;
+    color: white;
+    width: 100%;
+    
+}
+
+.middle-main-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 80px;
+    flex-direction: column;
+    
+}
+
+/* #image{
+    position: relative;
+}
+
+.birdsImage{
+    position: absolute;
+    top: 48px;
+} */
+
+@media screen and (max-width: 1550px){
+    .main-page img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-height: 750px){
+    .main-page img{
+        height: 100vh;
+    }
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+} 
