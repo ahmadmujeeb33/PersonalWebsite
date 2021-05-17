@@ -15,21 +15,15 @@
     top: 10;
     left: 0;
     
+    
   }
   .image1 {
     position: relative;
     top: 0;
     left: 0;
     border: 5px solid yellow;
+    height: 220px;
     /* padding: 30px; */
-  }
-  .image2 {
-    position: absolute;
-    border: 5px solid orange;
-    
-    
-    
-    
   }
   
 
@@ -37,12 +31,6 @@ body{
     margin: 0;
     animation-name: fadeIn;
     animation-duration: 1s;
-    display: flex;
-    flex-direction: column;
-    overflow: scroll;
-    flex-wrap: wrap;
-    
-   
 }
 
 .menu-bar{
@@ -86,6 +74,34 @@ body{
     
 }
 
+.main-page{
+    background: url("Palms.PNG");
+    height: 100vh;
+    border: 4px solid aqua;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.AboutMe-Image-info{
+    display: flex;
+    margin-left: 200px;
+    gap: 40px;
+}
+
+#AboutMe-title{
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+}
+
+#AboutMe-info{
+    margin-top: 100px;
+    color: gray;
+    font-size: 120%;
+    width: 50%;
+    font-family:'Times New Roman', Times, serif;
+}
+
 /* #image{
     position: relative;
 }
@@ -94,10 +110,13 @@ body{
     top: 48px;
 } */
 
-.AboutMe{
-    z-index: 1;
-    border: violet 4px solid;
+#AboutMe{
+    border: 4px solid greenyellow;
+      
+    
 }
+
+
 
 @media screen and (max-width: 1550px){
     .main-page img{
@@ -106,9 +125,9 @@ body{
 }
 
 
-@media screen and (max-height: 750px){
+@media screen and (max-height: 200px){
     .main-page img{
-        height: 100vh;
+        height: 100px;
     }
 }
 
