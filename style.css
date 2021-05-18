@@ -57,13 +57,6 @@ body{
 }
 
 
-.middle-main-entire{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    border: 3px solid red;
-    height: 100px;
-}
 
 .middle-main{
     display: flex;
@@ -142,7 +135,7 @@ body{
 
 .image2{
     
-    background: url("connect4.PNG");
+    background: url("connect4.png");
     position: relative;
     width: 600px;
     height: 300px;
