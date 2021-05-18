@@ -102,6 +102,40 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 
+
+#Personal-Projects{
+    background-color: #f2caa7;
+}
+
+#Personal-Projects p {
+    font-family:monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 160%;
+}
+
+.Projects{
+    display: flex;
+
+}
+
+.image2{
+    
+    background: url("connect4.PNG");
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 2px solid blue;
+    background-size: 100% 100%;
+}
+
+.image2 span{
+    position: absolute;
+    top: 90;
+    left: 60;
+    
+}
+
 /* #image{
     position: relative;
 }
