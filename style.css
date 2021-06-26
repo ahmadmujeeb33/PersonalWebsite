@@ -44,6 +44,27 @@ body{
     
 }
 
+.personalInfo{
+    position: absolute;
+    top: 38px;
+    width: 70%;
+    opacity: 1;
+   
+    
+}
+
+.personalInfo-items{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.personalInfo-items a{
+    color:white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
 .menu-bar-items{
     display: flex;
     justify-content: flex-end;
@@ -135,7 +156,7 @@ body{
 
 .image2{
     
-    background: url("connect4.png");
+    background: url("Wether.png");
     position: relative;
     width: 600px;
     height: 300px;
@@ -145,20 +166,20 @@ body{
 
 .image2 span{
     position: absolute;
-    top: 210px;
-    margin-left: 160px;
-    left: 60;
+    top: 110px;
+    margin-left: 290px;
     font-size: 130%;
+    color: black;
     
 }
 
 
 
 .image3{
-    background: url("Calculator.png");
+    background: url("CodeQuiz.PNG");
     position: relative;
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     border: 2px solid blue;
     background-size: 100% 100%;
 }
@@ -216,8 +237,6 @@ body{
     justify-content: center;
     gap: 20px;
 }
-
-
 
 
 @media screen and (max-width: 1550px){
